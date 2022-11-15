@@ -8,8 +8,8 @@ const Discount = () => {
         <div className='container'>
           <div className='heading d_flex'>
             <div className='heading-left row  f_flex'>
-              <img src='https://img.icons8.com/windows/32/fa314a/gift.png' />
-              <h2>GRANDES DESCONTOS</h2>
+            <i className='fa-solid fa-border-all'></i>
+              <h2>Grandes Descontos</h2>
             </div>
             <div className='heading-right row '>
               <span>Ver todos</span>

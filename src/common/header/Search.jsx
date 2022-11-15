@@ -3,11 +3,7 @@ import logo from "../../components/assets/images/logo_ad.jpg"
 import { Link } from "react-router-dom"
 
 const Search = ({ CartItem }) => {
-  // fixed Header
-  window.addEventListener("scroll", function () {
-    const search = document.querySelector(".search")
-    search.classList.toggle("active", window.scrollY > 100)
-  })
+
 
   return (
     <>
@@ -19,7 +15,7 @@ const Search = ({ CartItem }) => {
 
           <div className='search-box f_flex'>
             <i className='fa fa-search'></i>
-            <input type='text' placeholder='Search and hit enter...' />
+            <input type='text' placeholder='Procurar...' />
             <span>Todas Categorias</span>
           </div>
 

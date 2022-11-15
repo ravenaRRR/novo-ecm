@@ -12,8 +12,8 @@ const Head = () => {
             <label> exemplo@gmail.com</label>
           </div>
           <div className='right row RText'>
-            <label>Theme FAQ"s</label>
-            <label>Need Help?</label>
+            <label>Atendimento</label>
+            <label>Precisa de ajuda?</label>
           </div>
         </div>
       </section>

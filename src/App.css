@@ -69,7 +69,7 @@ button {
   box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
 }
 
-/*---------category----------*/
+/*---------categorias----------*/
 .contentWidth {
   width: 77%;
 }
@@ -97,13 +97,13 @@ button {
   padding: 0 20px;
 }
 .category .box:hover {
-  background-color: #ffe1e6;
+  background-color: #a8baf5;
   cursor: pointer;
 }
 
-/*---------category----------*/
+/*---------categorias----------*/
 .btn-primary {
-  background: #e94560;
+  background: blue;
   padding: 13px 40px;
   font-weight: bold;
   color: #fff;
@@ -116,21 +116,21 @@ button {
   margin-top: 40px;
 }
 .heading i {
-  color: #e94560;
+  color: blue;
   margin: 10px;
 }
 .discount {
   position: absolute;
   top: 0;
   left: 0;
-  background: #e94560;
+  background: blue;
   padding: 3px 10px;
   font-size: 12px;
   border-radius: 50px;
   color: #fff;
   margin: 10px;
 }
-/*---------product-----------*/
+/*---------produto-----------*/
 .product {
   background: #fff;
   padding: 20px;
@@ -151,11 +151,11 @@ button {
 .product .price {
   display: flex;
   justify-content: space-between;
-  color: #e94560;
+  color: rgb(30, 102, 126);
 }
 .price button {
   background: none;
-  color: #e94560;
+  color: blue;
   font-size: 20px;
   transition: 0.5s;
   border: 1px solid rgb(3 0 71 / 9%);
@@ -165,7 +165,7 @@ button {
 }
 .price button:hover {
   cursor: pointer;
-  background-color: #e94560;
+  background-color: blue;
   color: #fff;
 }
 .product-like {
@@ -190,8 +190,8 @@ button {
 .product:hover .product-like {
   opacity: 1;
 }
-/*---------product-----------*/
-/*----- control btn -------*/
+/*---------produto-----------*/
+/*----- controle botão -------*/
 .control-btn .next,
 .control-btn .prev {
   position: absolute;
@@ -218,12 +218,12 @@ button {
 }
 .control-btn .prev:hover,
 .control-btn .next:hover {
-  background: #e94560;
+  background: blue;
   color: white;
   cursor: pointer;
 }
-/*----- control btn -------*/
-/*----- heading -------*/
+/*----- controle botão -------*/
+/*----- cabeçalho -------*/
 .heading .heading-left i {
   font-size: 30px;
 }
@@ -236,7 +236,7 @@ button {
   text-align: right;
   color: grey;
 }
-/*----- heading -------*/
+/*----- cabeçalho -------*/
 .grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -245,5 +245,5 @@ button {
 .grid2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  grid-gap: 50px;
 }

@@ -2,6 +2,7 @@
   width: 40px;
   height: 40px;
   margin-top: 5px;
+
 }
 .NewArrivals h4 {
   font-weight: 400;
@@ -14,4 +15,21 @@
 .NewArrivals .box img {
   width: 100%;
   height: 100%;
+  
 }
+
+
+
+.box-product{
+  border-radius: 50%;
+  }
+  
+  .box-product img{
+    margin-top: 40px;
+      border-radius: 50%;
+      width: 100px;
+      }
+  
+      .box-product h4{
+      justify-items: center;
+          }

@@ -12,11 +12,11 @@ const Catg = () => {
     },
     {
       cateImg: "./images/category/cat-1.png",
-      cateName: "Oppo",
+      cateName: "Nokia",
     },
     {
       cateImg: "./images/category/cat-2.png",
-      cateName: "Vivo",
+      cateName: "Lg",
     },
     {
       cateImg: "./images/category/cat-1.png",

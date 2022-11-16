@@ -46,3 +46,4 @@ const Wrapper = () => {
 }
 
 export default Wrapper
+{/*é a parte dos cards de baixo sobre entrega envio e etc*/}

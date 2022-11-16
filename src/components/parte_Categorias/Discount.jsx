@@ -1,27 +1,30 @@
 import React from "react"
-import "./style.css"
-import TopCart from "./TopCart"
+import Dcard from "./Dcard"
+import "../newarrivals/style.css"
 
-const TopCate = () => {
+
+
+const Discount = () => {
   return (
     <>
-      <section className='TopCate background'>
+      <section className='Discount-background-NewArrivals'>
         <div className='container'>
           <div className='heading d_flex'>
             <div className='heading-left row  f_flex'>
-              <i className='fa-solid fa-border-all'></i>
-              <h2>Top Categorias</h2>
+            <i className='fa-solid fa-border-all'></i>
+              <h2>Categorias</h2>
             </div>
             <div className='heading-right row '>
             <a href="/galeria">Ver Mais</a>
-              <img src='https://img.icons8.com/glyph-neue/64/26e07f/new.png' />
+              <i className='fa-solid fa-caret-right'></i>
             </div>
           </div>
-          <TopCart />
+          <Dcard />
         </div>
       </section>
     </>
   )
 }
 
-export default TopCate
+
+export default Discount

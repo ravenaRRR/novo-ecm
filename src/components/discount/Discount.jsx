@@ -1,6 +1,9 @@
 import React from "react"
 import Dcard from "./Dcard"
 
+
+
+
 const Discount = () => {
   return (
     <>
@@ -12,7 +15,7 @@ const Discount = () => {
               <h2>Grandes Descontos</h2>
             </div>
             <div className='heading-right row '>
-              <span>Ver todos</span>
+            <a href="/galeria">Ver Mais</a>
               <i className='fa-solid fa-caret-right'></i>
             </div>
           </div>
@@ -22,5 +25,6 @@ const Discount = () => {
     </>
   )
 }
+
 
 export default Discount

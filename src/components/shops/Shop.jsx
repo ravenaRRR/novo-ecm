@@ -16,7 +16,7 @@ const Shop = ({ addToCart, shopItems }) => {
                 <h2>Eletrônicos</h2>
               </div>
               <div className='heading-right row '>
-                <span>Ver todos</span>
+              <a href="/galeria">Ver Mais</a>
                 <i className='fa-solid fa-caret-right'></i>
               </div>
             </div>

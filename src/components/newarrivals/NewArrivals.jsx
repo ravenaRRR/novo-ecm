@@ -13,7 +13,7 @@ const NewArrivals = () => {
               <h2>Novidades </h2>
             </div>
             <div className='heading-right row '>
-              <span>Ver todas</span>
+            <a href="/galeria">Ver Mais</a>
               <i className='fa-solid fa-caret-right'></i>
             </div>
           </div>

@@ -7,6 +7,7 @@ import Data from "./components/Data"
 import Cart from "./common/Cart/Cart"
 import Footer from "./common/footer/Footer"
 import Sdata from "./components/shops/Sdata"
+import ProductGalery from "./components/ProductGalery/ProductGalery"
 
 function App() {
  
@@ -68,11 +69,18 @@ function App() {
           <Route path='/cart' exact>
             <Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} />
           </Route>
+          <Route path='/galeria' component={ProductGalery}>
+          </Route>
         </Switch>
         <Footer />
       </Router>
+  
     </>
   )
+
+
 }
+
+
 
 export default App

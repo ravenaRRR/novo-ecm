@@ -13,7 +13,7 @@ const TopCate = () => {
               <h2>Top Categorias</h2>
             </div>
             <div className='heading-right row '>
-              <span>Ver todas</span>
+            <a href="/galeria">Ver Mais</a>
               <img src='https://img.icons8.com/glyph-neue/64/26e07f/new.png' />
             </div>
           </div>

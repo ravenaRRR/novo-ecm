@@ -31,7 +31,7 @@ const Ddata = [
   },
   {
     cover: "./images/discount/discount-7.png",
-    name: "Ranasonic 2022",
+    name: "Ranasonic",
     price: "R$300",
   },
   {
